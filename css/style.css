@@ -1,0 +1,154 @@
+/*
+body{
+	background: rgba( 255, 255, 255, 0.20 );
+}
+*/
+
+.log{
+
+  	display: block;
+    
+	/*background: rgba( 255, 255, 255, 0.20 );*/
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 3.5px );
+	-webkit-backdrop-filter: blur( 8.5px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+}
+
+.log1{
+	display: block;
+	position: relative;
+	/*background: rgba( 255, 255, 255, 0.20 );*/
+	backdrop-filter: blur( 2.5px );
+	-webkit-backdrop-filter: blur( 2.5px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	height: 100px;
+    width: 100px;
+}
+
+
+body{
+	height: 100%;/*
+	background-image: url("images/back1.jpg");
+	
+  	background-repeat: no-repeat; 
+  	background-size: cover;
+  	
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	background: rgb(28,82,125);
+	background: linear-gradient(14deg, rgba(28,82,125,1) 0%, rgba(0,212,255,1) 100%); 
+	font-family: 'Truculenta', sans-serif;
+}
+
+
+
+.log {
+	position: absolute;
+	height: 330px;
+    width: 330px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+
+form{
+	font-size: 40px;
+	padding-top: 44px;
+}
+
+input{
+	height: 30px;
+	background: transparent;
+	color: white;
+	border: none;
+  	border-bottom: 2px solid #2f6cde;
+}
+
+button{
+	position: static;
+	font-size: 30px;
+	top: -10%;
+	border-radius: 8px;
+}
+
+
+.login{
+	width: 38%; 
+	height:33px; 
+	background-color: transparent; 
+	border: 0px solid black;
+	position: absolute;
+	left: 30%;
+	top: 250px;
+	font-size: 20px;
+	color: white;
+	background: rgba( 255, 255, 255, 0.20 );
+	box-shadow: 0 1px 9px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4.5px );
+	-webkit-backdrop-filter: blur( 4.5px );
+	border-radius: 10px;
+	transition: 0.4s;
+}
+
+.login:hover{
+	background-color: var(--mainColor);
+}
+
+.forget{
+	font-size: 10px;
+	position: absolute;
+    top: 95%;
+    left: 74%;
+}
+.bott{
+	font-size: 11px;
+	position: absolute;
+    top: 93%;
+    right: 69%;
+
+}
+
+.titl{
+	position: relative;
+	top: 7%;
+
+}
+:root {
+  --mainColor: #00d4ff;
+}
+
+a{
+	text-decoration: none;
+	color: #07255e;
+	background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100% );
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 4px 4px;
+  	color: #000;
+ 	text-decoration: none;
+  	transition: background-size .2s;
+}
+
+a:hover {
+  background-size: 4px 50px;
+}
+
+
+/*.bg{
+	display: block;
+	height: auto;
+	width: 100%;
+	background-image: url("back1.jpg");
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover;
+}*/
