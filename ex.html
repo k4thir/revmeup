@@ -7,6 +7,8 @@
     <title>My projects</title>
     <link href="https://fonts.googleapis.com/css2?family=Truculenta:wght@300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style1.css">
 </head>
 
@@ -22,8 +24,8 @@
                 </div>
                 <span>Admin</span>
             </div>
-            <div class="item-list">
-                <div class="icons">
+            <div class="item-list" id="projects">
+                <div class="icons" >
                     <i class="fas fa-box-open"></i>
                 </div>
                 <span>Projects</span>
@@ -54,49 +56,28 @@
             </div>
         </div>
     </nav>
-    <div style="width: 18%; height: 100%;">
-        
-    </div>
+
+	<div style="width: 18%; height: 100%;"></div>
+	<div class="title">Project TODO-LIST</div>
+	<div class="title1">This is a simple todo list application which can perform CRUD operations</div>
+
     <div class="container">
-        <div class="card todo">
-            
-            <h2 class="content" class="pro">TODO LIST</h2>
+    	<div id="myImg" class="img1 cardn"></div>
+    	<div id="myImg1" class="img2 cardn"></div>
+    	<div id="myImg2" class="img2 cardn"></div>
+    	<div id="myImg3" class="img1 cardn"></div> 
 
-        </div>
-        <div class="card tech">
-            
-            <h2 class="content" class="pro1">Tech Table</h2>
-            
-        </div>
-        <div class="card pinb">
-            
-            <h2 class="content" class="pro2">Pin Blu</h2>
-            
-        </div>
-        <div class="card impact">
-            
-            <h2 class="content" class="pro3">Impact Hut</h2>
+		<div id="myModal" class="modal">
+		<span class="close">&times;</span>
+	  	<img class="img3 modal-content" id="img01">
+</div>
 
-        </div>
-        <div class="card ang">
-            
-            <h2 class="content" class="pr4">Angarak</h2>
+  	</div>
 
-        </div>  
-        <div class="card weather">
-            
-            <h2 class="content" class="pro5">Weather Forecast</h2>
+  	<div class="thank" id="foo">
+  		<span style="position:absolute; top: 40%;">Thank You </span>
+  	</div>
 
-        </div>        
-        <div class="card js">
-            
-            <h2 class="content" class="pro6">Searching and Filtering</h2>
-
-        </div>  
-    </div>
-
-    <!-- javascript -->
-    <script src="js/main.js"></script>
+<script src="js/main1.js"></script>
 </body>
-
 </html>

@@ -10,7 +10,6 @@ myfunc = () => {
 		alert("Please enter password")
 	}
 	else{
-		console.log(mail,pass)
 		window.location.href = "page1.html";
 	}
 	
